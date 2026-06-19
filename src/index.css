@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --muted-color: #4b5563;
+}
+
+.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --muted-color: #a1a1aa;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-text antialiased selection:bg-primary/30 selection:text-primary overflow-x-hidden;
+  }
+}
