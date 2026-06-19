@@ -9,7 +9,9 @@ export const portfolioData = {
   },
   hero: {
     greeting: "Hello There!",
-    name: "Tada Alvian",
+    name: "SepTada",
+    firstName: "Sep",
+    lastName: "Tada",
     titles: [
       "IT Student",
       "Fullstack Developer",
@@ -19,7 +21,7 @@ export const portfolioData = {
     description: "Passionate about building modern web applications and learning new technologies.",
   },
   about: {
-    description: "I am an IT student with a strong passion for frontend development. I enjoy building clean, modern, and responsive web applications.",
+    description: "My name is Septada Alvian. I am an IT student with a strong passion for frontend development. I focus on building clean, maintainable, and responsive web applications. Highly motivated to learn and embrace new challenges, I spend my free time experimenting with new frameworks and creating interactive UI components.",
     techStack: [
       { category: "Tech Stack", items: ["React", "Node.js", "Express", "MySQL", "JavaScript (ES6+)", "Tailwind CSS", "HTML5", "CSS3"] },
       { category: "Tools", items: ["Git", "GitHub", "VS Code", "Figma", "Vite"] },

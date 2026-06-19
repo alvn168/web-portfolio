@@ -32,9 +32,6 @@ const About = () => {
               <p className="text-base sm:text-lg text-muted leading-relaxed">
                 {portfolioData.about.description}
               </p>
-              <p className="text-base sm:text-lg text-muted leading-relaxed">
-                I focus on writing clean, maintainable, and efficient code. I'm highly motivated to learn new things and always open to new challenges. In my free time, I love experimenting with new frontend frameworks and creating interactive UI components.
-              </p>
 
               {portfolioData.about.techStack && (
                 <div className="mt-4 text-left">

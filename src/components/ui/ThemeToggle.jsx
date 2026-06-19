@@ -18,15 +18,9 @@ const ThemeToggle = () => {
   }, [isDark]);
 
   const toggleTheme = () => {
-    if (isDark) {
-      document.documentElement.classList.remove('dark');
-      localStorage.theme = 'light';
-      setIsDark(false);
-    } else {
-      document.documentElement.classList.add('dark');
-      localStorage.theme = 'dark';
-      setIsDark(true);
-    }
+    const newTheme = !isDark;
+    setIsDark(newTheme);
+    localStorage.theme = newTheme ? 'dark' : 'light';
   };
 
   return (
