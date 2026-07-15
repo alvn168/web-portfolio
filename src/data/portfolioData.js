@@ -15,13 +15,12 @@ export const portfolioData = {
     titles: [
       "IT Student",
       "Fullstack Developer",
-      "Frontend Enthusiast",
       "Tech Explorer"
     ],
-    description: "Passionate about building modern web applications and learning new technologies.",
+    description: "Passionate about building clean, maintainable, and responsive web applications while continuously learning new technologies.",
   },
   about: {
-    description: "My name is Septada Alvian. I am an IT student with a strong passion for frontend development. I focus on building clean, maintainable, and responsive web applications. Highly motivated to learn and embrace new challenges, I spend my free time experimenting with new frameworks and creating interactive UI components.",
+    description: "My name is Septada Alvian, an IT student passionate about software development. I enjoy building clean, maintainable, and responsive web applications while continuously improving my skills in modern technologies. Currently, I am expanding my knowledge in Cloud Computing, server administration, and software architecture, with a strong interest in creating scalable and reliable applications.",
     techStack: [
       { category: "Tech Stack", items: ["React", "Node.js", "Express", "MySQL", "JavaScript (ES6+)", "Tailwind CSS", "HTML5", "CSS3"] },
       { category: "Tools", items: ["Git", "GitHub", "VS Code", "Figma", "Vite"] },

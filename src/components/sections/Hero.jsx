@@ -40,8 +40,8 @@ const Hero = () => {
             {hero.description}
           </p>
           <div className="flex flex-wrap gap-3 sm:gap-4">
-            <Button onClick={() => window.location.href = '#projects'}>
-              View Projects
+            <Button onClick={() => window.open ('/lokasicv', '_blank')}>
+              My CV
             </Button>
             <Button variant="outline" onClick={() => window.location.href = '#contact'}>
               Contact Me
