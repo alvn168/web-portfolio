@@ -33,7 +33,7 @@ export const portfolioData = {
       description: "A modern academic management website built with React and Tailwind CSS, featuring a responsive design, clean user interface, and seamless user experience..",
       thumbnail: "",
       techStack: ["React", "Tailwind CSS", "JavaScript"],
-      githubUrl: "#",
+      githubUrl: "",
       liveDemoUrl: "https://academic.tada.my.id/",
       featured: true,
       status: "Preview",
