@@ -4,6 +4,7 @@ import Button from "./Button";
 
 const ProjectCard = ({ project }) => {
   const isComingSoon = project.status === 'coming-soon';
+  const hasGithub = !!project.githubUrl && project.githubUrl !== '#';
   const cardRef = useRef(null);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
@@ -75,8 +76,8 @@ const ProjectCard = ({ project }) => {
             variant="outline" 
             size="sm" 
             className="flex-1"
-            disabled={isComingSoon}
-            onClick={() => !isComingSoon && window.open(project.githubUrl, '_blank')}
+            disabled={isComingSoon || !hasGithub}
+            onClick={() => !isComingSoon && hasGithub && window.open(project.githubUrl, '_blank')}
           >
             Code
           </Button>
