@@ -29,14 +29,14 @@ export const portfolioData = {
   projects: [
     {
       id: 1,
-      title: "Personal Portfolio",
-      description: "Modern personal portfolio website built using React and Tailwind CSS.",
+      title: "Management Academic",
+      description: "A modern academic management website built with React and Tailwind CSS, featuring a responsive design, clean user interface, and seamless user experience..",
       thumbnail: "",
       techStack: ["React", "Tailwind CSS", "JavaScript"],
       githubUrl: "#",
-      liveDemoUrl: "#",
+      liveDemoUrl: "academic.tada.my.id",
       featured: true,
-      status: "coming-soon",
+      status: "Preview",
     },
     {
       id: 2,
