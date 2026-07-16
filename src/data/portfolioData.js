@@ -34,7 +34,7 @@ export const portfolioData = {
       thumbnail: "",
       techStack: ["React", "Tailwind CSS", "JavaScript"],
       githubUrl: "#",
-      liveDemoUrl: "academic.tada.my.id",
+      liveDemoUrl: "https://academic.tada.my.id/",
       featured: true,
       status: "Preview",
     },
