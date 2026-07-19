@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
       onMouseMove={handleMouseMove}
       onMouseEnter={() => setIsHovering(true)}
       onMouseLeave={() => setIsHovering(false)}
-      className="bg-muted/5 dark:bg-muted/10 border border-muted/20 rounded-2xl overflow-hidden backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 group relative"
+      className="bg-muted/5 dark:bg-muted/10 border border-muted/20 rounded-2xl overflow-hidden backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10 group relative h-full flex flex-col"
     >
       {/* Spotlight Hover Effect */}
       {isHovering && (
@@ -36,7 +36,7 @@ const ProjectCard = ({ project }) => {
         />
       )}
 
-      <div className="h-48 bg-muted/10 relative overflow-hidden flex items-center justify-center relative z-10">
+      <div className="aspect-video bg-muted/10 relative overflow-hidden flex items-center justify-center z-10">
         {project.thumbnail ? (
           <img 
             src={project.thumbnail} 
@@ -56,7 +56,7 @@ const ProjectCard = ({ project }) => {
         )}
       </div>
       
-      <div className="p-6 relative z-10">
+      <div className="p-6 relative z-10 flex flex-col flex-grow">
         <h3 className="text-xl font-bold text-text mb-2 group-hover:text-primary transition-colors">
           {project.title}
         </h3>
@@ -71,7 +71,7 @@ const ProjectCard = ({ project }) => {
           ))}
         </div>
         
-        <div className="flex gap-3">
+        <div className="flex gap-3 mt-auto">
           <Button 
             variant="outline" 
             size="sm" 
